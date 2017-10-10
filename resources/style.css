@@ -4,6 +4,7 @@ html,
   /* width: 960px; */
   font-family: Helvetica;
   color: white;
+  /* margin: auto; */
 }
 /* HEADER SECTION */
 .logo img {
@@ -69,6 +70,8 @@ nav li {
   padding: 3rem 0;
   display: flex;
   justify-content: space-between;
+  width: 90%;
+  margin: auto;
 }
 .product {
   width: 30%;
@@ -91,7 +94,38 @@ nav li {
   text-align: center;
 }
 /* STORE INFORMATION */
+.store-info {
+  display: flex;
+  margin: auto;
+}
+
+.title {
+  background-color: black;
+  padding: 1rem 2rem;
+  width: 35%;
+}
+
+.store-info p {
+  color: black;
+}
+
+.store-info container {
+  display: flex;
+  padding-top: 3rem;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+}
 /* FOOTER */
+footer {
+  padding: 5rem;
+  background-color: black;
+  /* height: 5rem; */
+  text-align: left;
+  margin-top: 4rem;
+}
+
 /* */
 /* */
 /* rule set for screens larger than 800*/
